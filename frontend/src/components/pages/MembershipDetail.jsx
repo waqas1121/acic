@@ -24,7 +24,7 @@ const MembershipDetail = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
 
-
+dfgfg
 
         if(obj === null){
             setTimeout(() => { 
