@@ -1,0 +1,34 @@
+<div class="card-datatable table-responsive">
+    <table id="technicians" class="datatables-demo table table-striped table-bordered">
+        <tbody>
+        <tr>
+            <th>Month</th>
+            <td>{{$prayer->month_name}}</td>
+        </tr>
+        <tr>
+            <th>Day</th>
+            <td>{{$prayer->day}}</td>
+        </tr>
+        <tr>
+            <th>Imsak</th>
+            <td>{{$prayer->Imsak}}</td>
+        </tr>
+        <tr>
+            <th>Fajr</th>
+            <td>{{$prayer->Fajr}}</td>
+        </tr>
+        <tr>
+            <th>Dhuhr</th>
+            <td>{{$prayer->Dhuhr}}</td>
+        </tr>
+        <tr>
+            <th>Sunset</th>
+            <td>{{$prayer->Sunset}}</td>
+        </tr>
+        <tr>
+            <th>Maghrib</th>
+            <td>{{$prayer->Maghrib}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
